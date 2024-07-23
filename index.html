@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="imgs/Logo.png" alt="Logo Alura"> 
+        </header>
+
+        <main>
+            <section class="encriptar">
+                <div class="introducir-texto">
+
+                    <textarea id="introducir-texto" class="textarea"  type="mensaje" cols="50" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+                </div>
+                    <div class="alerta">
+                         <p>Solo letras minúsculas y sin acentos</p>
+                    </div>
+                
+                <div class="btn-conteiner">
+                  <button id="btn1" class="btn1">Encriptar!</button>
+                     <button id="btn2"class="btn2">Desencriptar!</button>
+                </div>
+            </section>
+            <div class="tablero">
+                <img src="imgs/Muñeco.png" alt="Muñeco">
+                <div id="conteiner-resultado">
+                    <h2 id="titulo-resultado"></h2>
+                <div class="tablero-resultado">
+                    <textarea class="resultado" name="resultado" id="resultado" readonly></textarea>
+                    <button id="btn-copy" class="btnCopy">Copiar</button>
+                </div>
+                </div>
+                
+                
+                <div id="toy" class="conteinerImg">
+                    <div class="mensaje1">
+                        <p  class="text1"><strong>Ningún texto mensaje fue encontrado</strong></p>
+                        <p class="text2">Ingresa el texto que deseas encriptar o desencriptar</p>
+                        </div>
+                </div>
+            </div>
+        </main> 
+        
+        <footer>Desarrollado por Juan Camilo Cuspian  ℗ 2024</footer>
+
+        <script src="assets/js/encriptador.js"></script>
+        <script src="assets/js/desencriptador.js"></script>
+        <script src="assets/js/copiar.js"></script>
+    </div>
+</body>
+</html>
+
